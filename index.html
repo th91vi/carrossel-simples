@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Carrossel Simples</title>
+    <link rel="stylesheet" href="css/carrossel.css">
+</head>
+<body>
+    <h1>Carrossel Simples</h1>
+    <div class="carrossel">
+        <button class="carrossel-botao carrossel-botao_esquerda">
+            <img src="img/chevron-left-solid.svg" alt="Botão para esquerda">
+        </button>
+            <div class="carrossel-container_principal">
+                <ul class="carrossel-container">
+                    <li class="carrossel-slide">
+                        <picture>
+                            <source srcset="img/slide-_3_.webp" type="image/webp">
+                            <img class="carrossel-imagem" src="img/slide (3).jpg" alt="Foto com motocicleta">
+                        </picture>
+                    </li>
+                    <li class="carrossel-slide">
+                        <picture>
+                            <source srcset="img/slide-_2_.webp" type="image/webp">
+                            <img class="carrossel-imagem" src="img/slide (2).jpg" alt="Foto com motocicleta">
+                        </picture>
+                    </li>
+                    <li class="carrossel-slide">
+                        <picture>
+                            <source srcset="img/slide-_1_.webp" type="image/webp">
+                            <img class="carrossel-imagem" src="img/slide (1).jpg" alt="Foto com motocicleta">
+                        </picture>
+                    </li>
+                </ul>
+            </div>
+        <button class="carrossel-botao carrossel-botao_direita">
+            <img src="img/chevron-right-solid.svg" alt="Botão para direita">
+        </button>
+        <div class="carrossel-nav">
+            <button class="carrossel-indicador slide-active"></button>
+            <button class="carrossel-indicador"></button>
+            <button class="carrossel-indicador"></button>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="js/carrossel.js"></script>
+</body>
+</html>
